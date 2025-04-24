@@ -11,7 +11,6 @@ This repository serves as a hands-on study of embedded ARM development in Rust. 
 - [Generating PACs](#-generating-pacs)
 - [Using Generated PACs](#-using-generated-pacs)
 - [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
 
 ---
 
@@ -63,7 +62,7 @@ To include a generated PAC in your embedded project:
 
    ```toml
    [dependencies]
-   stm103_pac = { path = "../embedded-study/pacs/stm103_pac" }
+   stm103_pac = { path = "../pacs/stm103_pac" }
    ```
 
 2. In your code, import and initialize the peripheral:
@@ -91,15 +90,3 @@ embedded-study/
 ├── README.md               # This file
 └── LICENSE
 ```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! To report issues or suggest improvements:
-
-- Open an issue in this repository.
-- Submit a pull request with clear descriptions and tests where applicable.
-
-Please adhere to the [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/).
-
