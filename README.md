@@ -51,7 +51,7 @@ Before you begin, ensure you have the following:
    svd2rust -i /cmsis-svd-stm32/STM32F103.svd -o pacs/stm103_pac
    ```
 
-    For more details how to use `svd2rust` access the documentation [here](https://docs.rs/svd2rust/latest/svd2rust/).
+    For more details about `svd2rust` access the documentation [here](https://docs.rs/svd2rust/latest/svd2rust/).
 
 ---
 
