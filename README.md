@@ -29,7 +29,7 @@ Before you begin, ensure you have the following:
 1. **Clone this repository**
 
    ```bash
-   git clone https://github.com/<your-username>/embedded.git
+   git clone https://github.com/dgaraujo89/embedded.git
    cd embedded
    ```
 
